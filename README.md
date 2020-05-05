@@ -1,2 +1,4 @@
-# ArMyseum-ArKit
- Diplom work
+# AR Myseum project
+- indoor navigation
+- images recognition
+- objects recognition
