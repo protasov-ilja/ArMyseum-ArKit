@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 181da7292f3d40539a2c35168d40919f, type: 3}
+  m_Name: NewMuseumData1
+  m_EditorClassIdentifier: 
+  _museumName: Museum 1
+  _museumDescription: Museum description starts here ..... hahahahaahahahaa
+  _museumImage: {fileID: 21300000, guid: 037c1fda5f4318f4e81cfa2d740c94af, type: 3}
+  _navigationMapData: {fileID: 0}
+  _exhibits:
+  - {fileID: 11400000, guid: bd42c577436abdb4380cc51c09f945c9, type: 2}

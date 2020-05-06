@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace AppAssets.Scripts
+namespace ARMuseum.Scriptables
 {
     [CreateAssetMenu(fileName = "NewExhibitData", menuName = "ARMuseum/ExhibitData", order = 0)]
     public class ExhibitDataSO : ScriptableObject
