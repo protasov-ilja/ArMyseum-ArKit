@@ -98,6 +98,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AppAssets/Scenes/MainScene.unity
     guid: 067423f13512da54d97d7c89379c7c50
+  - enabled: 1
+    path: Assets/AppAssets/Scenes/ChooseMuseumScene.unity
+    guid: a5596702546af09418e7ce33967b94ee
   m_configObjects:
     com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 2d5fb8e61571b4e3897f221189089fd6,
       type: 2}
