@@ -3,7 +3,6 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine.XR.ARFoundation;
-using UnityEngine.XR.ARSubsystems;
 
 namespace ARMuseum.ImagesTracking
 {
@@ -97,15 +96,15 @@ namespace ARMuseum.ImagesTracking
                             // }
 
             // Show the fit-to-scan overlay if there are no images that are Tracking.
-            foreach (var visualizer in m_Visualizers.Values)
-            {
-                if (visualizer.Image.trackingState == TrackingState.Tracking)
-                {
-                    userInterface.SetActive(true);
-                    FitToScanOverlay.SetActive(false);
-                    return;
-                }
-            }
+            // foreach (var visualizer in m_Visualizers.Values)
+            // {
+            //     if (visualizer.Image.trackingState == TrackingState.Tracking)
+            //     {
+            //         userInterface.SetActive(true);
+            //         FitToScanOverlay.SetActive(false);
+            //         return;
+            //     }
+            // }
 
             userInterface.SetActive(false);
             FitToScanOverlay.SetActive(true);

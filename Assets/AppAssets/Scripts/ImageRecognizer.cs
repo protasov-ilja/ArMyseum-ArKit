@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Runtime.InteropServices;
-// using GoogleARCore;
-// using ZXing;
 using UnityEngine;
 
 namespace ARMuseum

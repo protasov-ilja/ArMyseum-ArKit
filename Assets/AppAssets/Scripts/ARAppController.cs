@@ -1,10 +1,5 @@
-﻿//using GoogleARCore;
-using UnityEngine;
+﻿using UnityEngine;
 
-#if UNITY_EDITOR
-// Set up touch input propagation while using Instant Preview in the editor.
-//using Input = GoogleARCore.InstantPreviewInput;
-#endif
 namespace ARMuseum
 {
     /// <summary>
@@ -27,12 +22,6 @@ namespace ARMuseum
         
         private bool _isTracking = false;
 
-        /// <summary>
-        /// True if the app is in the process of quitting due to an ARCore connection error,
-        /// otherwise false.
-        /// </summary>
-        private bool _isQuitting = false;
-        
         public void Awake()
         {
             // Enable ARCore to target 60fps camera capture frame rate on supported devices.
@@ -50,12 +39,9 @@ namespace ARMuseum
         {
             // Move the person indicator according to position
             Vector3 currentARPosition = _cameraTransform.position;
-            if (!_isTracking)
-            {
-                _isTracking = true;
-                PrevARPosePosition = _cameraTransform.position;
-            }
-            
+            _isTracking = true;
+            PrevARPosePosition = _cameraTransform.position;
+
             // Remember the previous position so we can apply deltas
             Vector3 deltaPosition = currentARPosition - PrevARPosePosition;
             PrevARPosePosition = currentARPosition;
