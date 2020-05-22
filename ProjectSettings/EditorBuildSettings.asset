@@ -93,6 +93,9 @@ EditorBuildSettings:
     path: Assets/Scenes/UX/SampleUXScene.unity
     guid: 3b42d67a72bbc4004bf713db0e312326
   - enabled: 1
+    path: Assets/AppAssets/Scenes/ARNavigationScene.unity
+    guid: d8ff81c64c637cc47b6778cdb7a7e291
+  - enabled: 1
     path: Assets/AppAssets/Scenes/ObjectDetectionScene.unity
     guid: 570ae3b62fc1c5943aa5045d8d5f0520
   - enabled: 1
